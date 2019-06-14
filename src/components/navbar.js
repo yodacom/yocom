@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
 // import { FaGithub } from 'react-icons/fa';
+import Contacts2 from "./contacts2";
 
-import './style.scss';
-import yodacomLogo from '../images/YodaComLogoTrans150x50.png';
+import "./style.scss";
+import yodacomLogo from "../images/YodaComLogoTrans150x50.png";
 
 const Navbar = () => (
   <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -41,9 +42,13 @@ const Navbar = () => (
           </a>
 
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="https://jjblack.com">About</a>
+            <a class="navbar-item" href="https://jjblack.com">
+              About
+            </a>
             <a class="navbar-item">Jobs</a>
-            <a class="navbar-item">Contact</a>
+            <a class="navbar-item" href="Contacts2">
+              Contact
+            </a>
           </div>
         </div>
       </div>
@@ -51,11 +56,11 @@ const Navbar = () => (
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            {/* <a class="button is-primary">
-              <strong>Sign up</strong>
+            <a class="button is-primary" href="Contacts2">
+              <strong>Contact</strong>
             </a>
-            <a class="button is-light">Log in</a> */}
-            <a class="button is-primary">
+            <a class="button is-light">Log in</a>
+            <a class="button is-primary" href="Contacts2">
               <strong>Questions/Contact</strong>
             </a>
           </div>

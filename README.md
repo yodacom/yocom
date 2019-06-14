@@ -1,12 +1,4 @@
-# Full Stack Gatsby Bulma Starter
 
-> A Quick Way to bootstrap your next Gatsby + Bulma site. Inspired by [this](https://github.com/amandeepmittal/gatsby-bulma-quickstart) starter
-
-![ss](https://static.appseed.us/misc/thumb-gatsby-bulma.png)
-
-## Demo 💯
-
-- [Demo Link](https://fullstack-gatsbyjs.appseed.us/)
 
 ## Features 🚀
 
@@ -43,7 +35,7 @@ Go inside `fullstack-gatsbyjs/` directory and run the following command:
 
 - `npm install` to install modules
 - `gatsby develop` to start the development (live browser update)
-- `gatsby build` generate the deplyment in `public` directory
+- `gatsby build` generate the deployment in `public` directory
 - `npm run deploy` deploy your app via FTP `EDIT deploy.js (config section)`
 
 ### Open the source code and start editing!
@@ -88,8 +80,4 @@ var config = {
 }
 ```
 
-## Support
-Open a new issuehere. Live support on [Discord](https://discord.gg/fZC6hup) and [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
 
----
-Made with ♥ by [AppSeed.us]("https://appseed.us")

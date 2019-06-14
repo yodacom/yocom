@@ -3,18 +3,18 @@ import React from 'react';
 import './style.scss';
 import Helmet from './helmet';
 import Header from './header';
-import Midsection from './midsection';
 import Contact from './contact';
 import Footer from './footer';
+import Navbar from './navbar';
 
-const Layout = ({ children }) => (
-	<div>
-		<Helmet />
-		<Header />
-    <Midsection />
+const Contacts = ({ children }) => (
+  <div>
+    <Helmet />
+    <Navbar />
     <Contact />
-		<Footer />
-	</div>
+    <Footer />
+  </div>
 );
 
-export default Layout;
+export default Contacts;
+
