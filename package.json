@@ -6,10 +6,13 @@
 	"dependencies": {
 		"babel-plugin-styled-components": "^1.10.0",
 		"bulma": "^0.7.4",
+		"date-fns": "^2.0.0-alpha.34",
+		"formol": "^2.6.13",
 		"ftp-deploy": "^2.3.3",
 		"gatsby": "^2.3.4",
 		"gatsby-cli": "^2.6.5",
 		"gatsby-image": "^2.0.35",
+		"gatsby-plugin-formol": "^0.1.0",
 		"gatsby-plugin-google-analytics": "^2.0.18",
 		"gatsby-plugin-manifest": "^2.0.25",
 		"gatsby-plugin-offline": "^2.0.25",
@@ -44,6 +47,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"devDependencies": {
+		"@babel/plugin-proposal-decorators": "^7.4.4",
+		"babel-plugin-add-react-static-displayname": "^0.0.2",
 		"prettier": "^1.14.2"
 	},
 	"repository": {
